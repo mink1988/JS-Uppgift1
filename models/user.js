@@ -1,5 +1,5 @@
 export default class user {
-    constructor (firstName, lastName, emailAddress, phoneNumber, deliveryAddress, zipCode, postalCity) {
+    constructor(firstName, lastName, emailAddress, phoneNumber, deliveryAddress, zipCode, postalCity) {
         this.firstName = firstName
         this.lastName = lastName
         this.emailAddress = emailAddress
@@ -8,7 +8,7 @@ export default class user {
         this.zipCode = zipCode
         this.postalCity = postalCity
     }
-    get fullName () {
+    get fullName() {
         return `${this.firstName} ${this.lastName}`
     }
     get id() {

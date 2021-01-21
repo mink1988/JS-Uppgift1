@@ -1,4 +1,4 @@
-  
+
 export const validateRequired = value => value.length >= 2;
 
 export function validateEmail(email) {
